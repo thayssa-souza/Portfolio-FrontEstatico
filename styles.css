@@ -131,22 +131,36 @@ h2{
     height:70vh;
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
     margin-top:11vh;
 }
 
+
 .firstRow{
+    width:80%;
     display:flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.lingContainer img{
-    height:15vh;
+.lingContainer figure{
+    width:10vw;
+    height:25vh;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border:solid #c69552;
+    border-radius: 25% 0 0 0;
+    opacity: 0.6;
+}
 
+.lingContainer img{
+    height:14vh;
 }
 
 .secondRow{
+    width:45%;
     display:flex;
     justify-content: space-evenly;
     align-items: center;
